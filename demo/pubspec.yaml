@@ -17,13 +17,14 @@ dependencies:
   printing:
   url_launcher: ^6.1.8
   vector_math: ^2.1.4
+#  vector_math: ^2.1.2
 
 dev_dependencies:
   # flutter_launcher_icons: ^0.10.0
   flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
-  test: ^1.22.0
+  test:
 
 dependency_overrides:
   pdf:
@@ -35,6 +36,16 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+  fonts:
+    - family: NotoSansSC-Black
+      fonts:
+        - asset: assets/font/NotoSansSC-Black.ttf
+    - family: NotoSansSC-Bold
+      fonts:
+        - asset: assets/font/NotoSansSC-Bold.ttf
+    - family: NotoSansSC-Regular
+      fonts:
+        - asset: assets/font/NotoSansSC-Regular.ttf
 
 flutter_icons:
   image_path: "app-logo.png"
